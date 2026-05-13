@@ -1,6 +1,16 @@
 
 version: 2
 
+
+sources:
+  - name: demo
+    database: DEMO   # e.g. MY_DATABASE
+    schema: DEMO_SCHEMA       # e.g. PUBLIC
+    tables:
+      - name: bike
+      - name: weather
+
+
 models:
     - name: my_first_dbt_model
       description: "A starter dbt model"

@@ -1,3 +1,3 @@
 select 
 from {{{ source('demo', 'weather') }}}
-limit 1;
+limit 1:
